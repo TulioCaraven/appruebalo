@@ -1,3 +1,40 @@
 *{
-	
+	box-sizing: border-box;
 }
+
+html, body{
+	height: 100%;
+	color: #FFF;
+}
+
+.navbar-default{
+	background-color: #009C9F;
+	padding-bottom: 0px;
+}
+
+.main{
+	background-image: url(../img/cu.png);
+	height: 800px;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+.contenido{
+	padding: 100px 10px;
+}
+
+.copy{
+	padding: 70px 10px;
+	font-size: 1.8em;
+}
+
+@media only screen and (max-width: 768px)
+{
+	.copy{
+	font-size: 1.2em;
+}
+}*/
