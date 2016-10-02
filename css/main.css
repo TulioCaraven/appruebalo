@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
 *{
 	box-sizing: border-box;
 }
@@ -5,31 +7,55 @@
 html, body{
 	height: 100%;
 	color: #FFF;
+	font-family: 'Raleway', sans-serif;
 }
 
-.navbar-default{
-	background-color: #009C9F;
-	padding-bottom: 0px;
-}
-
-.main{
+body{
 	background-image: url(../img/cu.png);
-	height: 800px;
+	height: 100%;
 	width: 100%;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-color: #000;
 }
 
-.contenido{
-	padding: 100px 10px;
+h1, h2, h3, h4{
+	color: #BCD695;
+}
+
+.logo{
+	width: 250px;
+	margin-left: 25%;
+	padding: 10px 0px;
+}
+
+.navbar-default{
+	background-color: #333;
+	padding-bottom: 0px;
+	border-style: none;
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+}
+
+.main{
+	height: 700px;
+	padding-top: 60px;
+}
+
+.presentacion{
+	padding: 50px 10px;
 }
 
 .copy{
-	padding: 70px 10px;
+	padding: 30px 10px;
 	font-size: 1.8em;
+}
+
+.funciones{
+	background-color: #222;
+	height: 500px;
 }
 
 @media only screen and (max-width: 768px)
