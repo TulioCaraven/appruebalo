@@ -7,11 +7,11 @@
 html, body{
 	height: 100%;
 	color: #FFF;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 body{
-	background-image: url(../img/cu.png);
+	background-image: url(../img/proyecto-4x.jpg);
 	height: 100%;
 	width: 100%;
 	background-attachment: fixed;
@@ -21,7 +21,7 @@ body{
 }
 
 h1, h2, h3, h4{
-	color: #BCD695;
+	color: #81CFF5;
 }
 
 .logo{
